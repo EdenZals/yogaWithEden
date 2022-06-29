@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גלריה | Yoga With Eden</title>
+    <meta name="description" content="עמוד באתר המציג גלריית תמונות משיעור יוגה" />
+    <meta name="keywords" content="גלריה, יוגה, אשטנגה, תגול יוגה" />
+    <meta name="author" content="עדן זלצמן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!--CSS-->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+
+</head>
+<body onload="currentSlide(1)">
+    <header>
+        <div class="container">
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="http://localhost:63342/index.html">דף בית</a></li>
+                    <li><a href="http://localhost:63342/TypeOfYoga.html">סוגי יוגה</a></li>
+                    <li><a class="home" href="http://localhost:63342/gallery.html">גלריה</a></li>
+                    <li><a href="">שיעורים</a></li>
+                    <li><a href="http://localhost:63342/about.html">אודות</a></li>
+                    <li><a href="http://localhost:63342/contact.html">צור קשר</a></li>
+                    <li><a href="http://localhost:63342/webmap.html">מפת האתר</a></li>
+
+                </ul>
+                <div class="logo">
+                    <img src="images/yogaLogo1.png"alt="לוגו האתר" />
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        
+        <div id="gallerybg"alt="תמונת רקע">
+            <div class="where">
+                <a href="http://localhost:63342/index.html">דף בית</a> > <a href ="http://localhost:63342/gallery.html">גלריה</a>
+</div>
+                <h1>:גלריה</h1>
+                <p>
+                    <br />
+                    .בשגרת חיים עמוסה ומלאת מתח, היוגה היא מרפא לגוף ולנפש
+                    <br />
+                    .היוגה מסייעת לנשימה, לחיטוב ולגמישות, ליציבה טובה, לרוגע ולאיזון כללי
+
+                    <br />
+                    .השיעורים שאני מעבירה הם מסוג יוגה אשטנגה משולב עם ויניאסה , זהו שיעור של רצף של תרגילים ונשימות שמביאות לידי מצב של שינוי מנטלי
+                    <br />
+                    . האפקטיביות ושיפור התנוחות מתבצע ע"י חזרות רבות של רצפי התרגול
+                    <br />
+                    .מזמינה אתכם ואתכן לעיין בגלריה של השיעור האחרון שהעברתי בשעות הזריחה לפתיחת יום טוב יותר בהרי מצפה רמון
+                    <br />
+                    .בכל תמונה מפורט שם התנוחה
+                    <br />
+                    ! תהנו
+                </p>
+                <h3 style="text-align:center">יוגה במצפה רמון</h3>
+
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/PicOneGallery.png" style="width:50%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/PicTwoGallery.png" style="width: 50%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/PicThreeGallery.png" style="width: 50%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/PicFourGallery.png" style="width: 50%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/PicFiveGallery.png" style="width: 50%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/PicSixGallery.png" style="width: 50%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicOneGallery.png" style="width:100%" onclick="currentSlide(1)" alt="ישיבה נוחה למדיטציה בתחילת התרגול">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicTwoGallery.png" style="width:100%" onclick="currentSlide(2)" alt="Urdhva Mukha Svanasana-כלב מביט מעלה">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicThreeGallery.png" style="width:100%" onclick="currentSlide(3)" alt="Prasarita padotasana-התראכות לפנים בעמידה ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicFourGallery.png" style="width:100%" onclick="currentSlide(4)" alt="Utthita Hasta Padangusthasna- הארכת ומתיחת הירך האחורית בהנפת הרגל והחזקת הבוהן  ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicFiveGallery.png" style="width:100%" onclick="currentSlide(5)" alt="Ardha  Chandra-תנוחת חצי ירח ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/PicSixGallery.png" style="width:100%" onclick="currentSlide(6)" alt="savasana-הרפיה מוחלטת בסוף התרגול">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+
+        <div id="footerbg"alt="תמונה המשמשת כרקע">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="http://localhost:63342/index.html">דף בית</a></li>
+                        <li><a href="http://localhost:63342/TypeOfYoga.html">סוגי יוגה</a></li>
+                        <li><a href="http://localhost:63342/gallery.html">גלריה</a></li>
+                        <li><a href="">שיעורים</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+
+                        <li><a href="http://localhost:63342/about.html">אודות</a></li>
+                        <li><a href="http://localhost:63342/contact.html">צור קשר</a></li>
+                        <li><a href="http://localhost:63342/webmap.html"> מפת האתר </a></li>
+                    </ul>
+                </nav>
+
+            </div> <div class="logofooter">
+                <img src="images/yogaLogo.png" alt=" לוגו האתר" />
+            </div>
+            <info>
+                <nav>
+                    <ul>
+                        <li>
+
+                            054-5687722
+                            <br />
+                            ארבע ארצות 9, תל אביב
+                            <br />
+                            Edenzals1@gmail.com
+                        <li>
+                    </ul>
+                </nav>
+            </info>
+        </div>
+
+    </footer>
+</body>
+</html>

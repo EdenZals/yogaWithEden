@@ -1,0 +1,413 @@
+﻿body {
+    font-family: Extazy;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    vertical-align: central;
+}
+.container {
+    position: relative;
+}
+/*עיצוב תפריט ניווט ראשי*/
+header nav {
+        font-family: Extazy;
+        width: 100%;
+        height: 80px;
+        position: relative;
+        background-color: #EBDED4;
+    }
+     nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    header nav li {
+        float: right;
+    }
+        header nav li a {
+            font-family: Extazy;
+            margin: 16PX 4px;
+            display: block;
+            color: #693D14;
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    header nav li a:hover:not(.home) {
+        background-color: #693D14;
+        text-decoration: underline;
+        color: #EBDED4;
+    }
+    .home {
+        background-color: #693D14;
+        color: #EBDED4;
+    }
+/*עיצוב פירורי לחם*/
+.where {
+    font-family: Extazy;
+    position: absolute;
+    right: 0;
+    color: #693D14;
+}
+/*תמונה עליונה בדף בית*/
+#headerP {
+    background-image: url('../images/BGheader.png');
+    width: 100%;
+    height: 444px;
+    background-position: center;
+}
+/*רקע מרכזי בדף בית*/
+#mainbg {
+    background-image: url('../images/mainpic.png');
+    width: 100%;
+    height: 426px;
+    background-position: center;
+}
+h2 {
+    color: #693D14;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    font-family: Extazy;
+    font-size: 24px;
+    text-shadow: #EBDED4 1px 2px 0;
+}
+/*בולטים בצורת לוטוס בסקשן טיפים בדף בית*/
+.bulet {
+text-align:right;
+
+    color: #693D14;
+    font-family: Extazy;
+    font-size: 22px;
+    float:right;
+    right:300px;
+    position:relative;
+}
+/*רקע טיפים בדף בית*/
+#tipsbg {
+    background-image: url('../images/tipspic.png');
+    width: 100%;
+    height: 579px;
+    background-position: center;
+    color: #693D14;
+}
+
+
+
+/*פוטר*/
+    /*רקע פוטר*/
+        #footerbg {
+            background-image: url('../images/footerbg.png');
+            width: 100%;
+            height: 260px;
+            background-position: center;
+            opacity:0.7;
+        }
+        /*רשימת קישורים פוטר*/
+        #footerbg nav {
+            font-family: Extazy;
+            height: 30px;
+            position: relative;
+            float: right;
+            text-align: right;
+        }
+        #footerbg nav li a {
+            font-family: Extazy;
+            margin: 20PX 16px;
+            display: block;
+            color: #693D14;
+            padding: 12px 8px 8px 0;
+            text-decoration: none;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        /*לוגו פוטר*/
+        .logofooter {
+            float:right;
+            position: relative;
+            right: 80px;
+            top: 20px;
+        }
+
+info nav {
+
+    float: right;
+    color: #693D14;
+    top: 196px;
+    left:60px;
+    position: relative;
+}
+#webmapbg {
+    background-image: url('../images/webmapbg.png');
+    width: 100%;
+    height:660px;
+    background-position: center;
+}
+h1 {
+    color: #693D14;
+    text-align: right;
+    font-family: Extazy;
+    font-size: 50px;
+    padding: 40px 40px 20px 0;
+    text-shadow: #EBDED4 1px 2px 0;
+}
+/*עמוד מפת אתר*/
+        #webmapbg nav {
+            color: #693D14;
+            font-family: Extazy;
+            position: relative;
+            text-align: right;
+            width: 100%;
+            height: 80px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+            #webmapbg nav li {
+                float: right;
+            }
+                #webmapbg nav li a {
+                    margin: 16PX 4px;
+                    text-align: center;
+                    padding: 16px 16px;
+                    font-family: Extazy;
+                    margin: 20PX 20px;
+                    display:block;
+                    color: #693D14;
+                    text-decoration: none;
+                    font-size: 32px;
+                }
+        #webmapbg nav li a:hover{
+            background-color: #693D14;
+            text-decoration: underline;
+            color: #EBDED4;
+        }
+        #webmapbg {
+            background-color: #693D14;
+            color: #EBDED4;
+            height:570px;
+        }
+
+
+
+/*עמוד אודות*/
+        #aboutbg {
+            background-image: url('../images/aboutbg.png');
+            width: 100%;
+            height: 620px;
+            background-position: center;
+        }
+        #aboutbg p {
+            font-family: Extazy;
+            color: #693D14;
+            font-size: 20px;
+            text-align: right;
+            right: 40px;
+            position: relative;
+        }
+        #aboutbg p2 {
+            font-family: Extazy;
+            color: #693D14;
+            font-size: 16px;
+            text-align: right;
+            left: 680px;
+            position: relative;
+        }
+        #aboutbg nav ul {
+            color: #693D14;
+            font-family: Extazy;
+            position: relative;
+            float: none;
+            text-align: right;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #aboutbg nav li a {
+            font-family: Extazy;
+            margin: 20PX 20px;
+            display:run-in;
+            color: #693D14;
+            font-size: 16px;
+            list-style-type: none;
+        }
+        .logoHIT{
+        float:right;
+        position: relative;
+        right: 220px;
+        top: 120px;
+        }
+
+/*עמוד צור קשר*/
+        #contactbg {
+            background-image: url('../images/contactbg.png');
+            width: 100%;
+            height: 720px;
+            background-position: center;
+        }
+            #contactbg p {
+                font-family: Extazy;
+                color: #693D14;
+                font-size: 20px;
+                text-align: right;
+                top: 220px;
+                right:100px;
+                position:absolute;
+            }
+        .red{
+        color:red;
+        font-family:Extazy;
+            }
+        #Send {
+            width:180px;
+            font-family: Extazy;
+            color: #693D14;
+            font-size:16px;
+        }
+        .map {
+            float: left;
+            position: absolute;
+            left:120px;
+            top: 270px;
+            font-family:Extazy;
+        }
+        #contactbg section {
+            width: 1100px;
+            height: 500px;
+            background-color: #EBDED4;
+        left:80px;
+        position:relative;
+        opacity:0.5;
+        }
+
+
+/*עמוד סוגי יוגה*/
+        /*רקע סוגי יוגה*/
+        #typaofyogabg {
+            background-image: url('../images/typaofyogabg.png');
+            width: 100%;
+            height:1350px;
+            background-position: center;
+        }
+        /*עיצוב פסקה של סוגי יוגה*/
+            #typaofyogabg p {
+                font-family: Extazy;
+                color: #693D14;
+                font-size: 20px;
+                text-align: right;
+                height:1000px;
+                width:1000px;
+                top: 200px;
+                right: 40px;
+                position: absolute;
+            }
+
+/* גלריה*/
+        #gallerybg p {
+            font-family: Extazy;
+            color: #693D14;
+            font-size: 20px;
+            text-align: center;
+            top: 80px;
+        }
+        #gallerybg {
+            background-image: url('../images/gallerybg.png');
+            width: 100%;
+            height: 1120px;
+            background-position: center;
+        }
+            #gallerybg h1 {/*כותרת גלריה*/
+                color: #693D14;
+                display: inline-block;
+                height: 60px;
+                width: 100%;
+                text-align: center;
+                font-family: Extazy;
+                font-size: 50px;
+                padding: 40px 40px 0 20px;
+                text-shadow: #EBDED4 1px 2px 0;
+            }
+        /*כותרת יוגה במצפה רמון*/
+        h3 {
+            color: #693D14;
+            text-align: center;
+            padding: 40px 0 40px 0;
+            font-family: Extazy;
+            font-size: 24px;
+            text-shadow: #EBDED4 1px 2px 0;
+        }
+        .mySlides {
+            display: none;
+            text-align:center;
+
+        }
+
+        /* במעבר עכבר מעל התמונות העכבר הופך ללחיץ */
+        .cursor {
+            cursor: pointer;
+        }
+
+        /*חץ אחורה של התמונות- השמאלי*/
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            width: auto;
+            color: #693D14;
+            font-size: 40px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /*חץ קדימה של התמונות- הימני */
+        .next {
+            right: 0;
+            border-radius: 20px 0 0 20px;
+        }
+        /*מספור התמונות מצד שמאל למעלה של התמונה המוצגת*/
+        .numbertext {
+            color: #693D14;
+            background-color: #EBDED4;
+            font-size: 20px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            left:240px;
+
+        }
+        /*
+        שורת פירוט על התמונה המוצגת*/
+        .caption-container {
+            text-align: center;
+            background-color: #EBDED4;
+            padding: 4px 16px;
+            color: #693D14;
+            height:40px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /*ריווח בין התמונות לפני הצגה*/
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+        /*הורדת שקיפות לתמונה שלא בהצגה*/
+        .demo {
+            opacity: 0.6;
+        }
+        /*במעבר עכבר שקיפות רגילה לתמונות*/
+            .active,
+            .demo:hover {
+                opacity: 1;
+            }
